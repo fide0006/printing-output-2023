@@ -12,37 +12,7 @@ let a = 3;
 let b = 5;
 let c;
 ------------
-a + b = ${a + b}
-
-a - b = ${a - b}
-
-a * b = ${a * b}
-
-a / b = ${a / b}
-
-a % b = ${a % b}
-
-a += b = ${a += b}
-
-a -= b = ${a -= b}
-
-a *= b = ${a *= b}
-
-a /= b = ${a /= b}
-
-a %= b = ${a %= b}
-
-a == b = ${a == b}
-
-a != b = ${a != b}
-
-a > b =  ${a > b}
-
-a < b = ${a < b}
-
-!a && !c = ${!a && !c}
-
-!a || !c = ${!a || !c}
+a + b = ${a + b} \na - b = ${a - b} \na * b = ${a * b}\na / b = ${a / b}\na % b = ${a % b}\na += b = ${a += b}\na -= b = ${a -= b}\na *= b = ${a *= b}\na /= b = ${a /= b}\na %= b = ${a %= b}\na == b = ${a == b}\na != b = ${a != b}\na > b =  ${a > b}\na < b = ${a < b}\n!a && !c = ${!a && !c}\n!a || !c = ${!a || !c}
 `;
 
 alert(result);
